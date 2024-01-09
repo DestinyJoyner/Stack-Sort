@@ -134,7 +134,7 @@ class Node {
               when 8 < 34: 
                 - pop off newStackTop(34) -> newStack : 21
                 - push to top of thisStack -> 34, 12, 2
-                - stay in nested while loop -> go back up to line 59
+                - stay in nested while loop -> go back up to line 75
   
               when 8 < 21:
                 - pop off newStackTop(21) -> newStack : EMPTY
@@ -144,27 +144,27 @@ class Node {
               when 12 < 34 :
               - pop off newStackTop(34) -> newStack : 21, 8, null
               - push to top of thisStack -> 34, 2
-              -stay in nested while loop -> go back up to line 59
+              -stay in nested while loop -> go back up to line 75
               
               when 12 < 21
               - pop off newStackTop(21) -> newStack : 8, null
               - push to top of thisStack -> 21, 34, 2
-              -stay in nested while loop -> go back up to line 59
+              -stay in nested while loop -> go back up to line 75
   
               when 2 < 34
               - pop off newStackTop(34) -> newStack : 21,12,8, null
               - push to top of thisStack -> 34
-              -stay in nested while loop -> go back up to line 59
+              -stay in nested while loop -> go back up to line 75
   
               when 2 < 21
               - pop off newStackTop(21) -> newStack : 12,8, null
               - push to top of thisStack -> 21, 34
-              -stay in nested while loop -> go back up to line 59
+              -stay in nested while loop -> go back up to line 75
   
               when 2 < 12
               - pop off newStackTop(12) -> newStack : 8, null
               - push to top of thisStack -> 12, 21, 34
-              -stay in nested while loop -> go back up to line 59
+              -stay in nested while loop -> go back up to line 75
   
               when 2 < 8
               - pop off newStackTop(8) -> newStack : EMPTY
