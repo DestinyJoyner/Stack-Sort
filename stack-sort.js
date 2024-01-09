@@ -48,6 +48,7 @@ class Node {
         console.log("thisNextTop:", thisNextTop.data,)
         /* 
           thisNextTop : 34
+
           thisNextTop : 8
           
           thisNextTop : 21
@@ -75,9 +76,11 @@ class Node {
           let newStackTop = newStack.peek();
           console.log("newStackTop:",newStackTop, "\n")
           /* 
-            newStackTop : 21
-            newStackTop : 34
-            newStackTop : 21 (thisNextStop variable is still 8 )
+            newStackTop : 21 (thisNextTop is 34 (line 50))
+
+            newStackTop : 34 (thisNextTop is 8 (line 52))
+
+            newStackTop : 21 (thisNextTop variable is still 8 (line 52) )
   
             newStackTop : 8 (thisNextTop is 21(line 53))
   
@@ -140,7 +143,7 @@ class Node {
               when 8 < 21:
                 - pop off newStackTop(21) -> newStack : EMPTY
                 - push to top of thisStack -> 21, 34, 12, 2
-                -BREAK OUT OF NESTED WHILE LOOP B/C NEWSTACK EMPTY : go to line 160
+                -BREAK OUT OF NESTED WHILE LOOP B/C NEWSTACK EMPTY : go to line 180
   
               when 12 < 34 :
               - pop off newStackTop(34) -> newStack : 21, 8, null
