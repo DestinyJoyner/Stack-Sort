@@ -169,7 +169,7 @@ class Node {
               when 2 < 8
               - pop off newStackTop(8) -> newStack : EMPTY
               - push to top of thisStack -> 8, 12, 21, 34
-              -BREAK OUT OF NESTED WHILE LOOP B/C NEWSTACK EMPTY : go to line 160
+              -BREAK OUT OF NESTED WHILE LOOP B/C NEWSTACK EMPTY : go to line 180
             */
           } else {
             break;
