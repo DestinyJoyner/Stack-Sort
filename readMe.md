@@ -1,7 +1,7 @@
 ## Stack Sort Method
 
 ### Guide
-- An example stack is created, and if you run the file the sort method will run (node stack- sort)
+- An example stack is created, and if you run the file the sort method will run (node stack-sort.js)
 
 - the console.log's in the terminal will show the values of the originalStack's top Vale as well as the newly created Stack's top value for the duriation of the algorithm
 
