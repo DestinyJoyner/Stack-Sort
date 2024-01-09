@@ -79,7 +79,6 @@ class Node {
             newStackTop : 21 (thisNextTop is 34 (line 50))
 
             newStackTop : 34 (thisNextTop is 8 (line 52))
-
             newStackTop : 21 (thisNextTop variable is still 8 (line 52) )
   
             newStackTop : 8 (thisNextTop is 21(line 53))
@@ -87,19 +86,16 @@ class Node {
             newStackTop : 21 (thisNextTop is 34(line 55))
   
             newStackTop : 34 (thisNextTop is 12(line 57))
-  
             newStackTop : 21 (thisNextStop variable is still 12 (line 57) )
             newStackStop : 8 (thisNextStop variable is still 12 (line 57) )
+
             newStackTop : 12 (thisNextStop is 21 (line 59))
   
             newStackTop : 21 (thisNextStop is 34 (line 61))
   
             newStackTop : 34 (thisNextStop is 2 (line 63))
-  
             newStackTop : 21 (thisNextStop variable is still 2 (line 63) )
-  
             newStackTop : 12 (thisNextStop variable is still 2 (line 63) )
-  
             newStackTop : 8 (thisNextStop variable is still 2 (line 63) )
   
             newStackTop : 2 (thisNextTop : 8 (line 65))
