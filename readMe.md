@@ -1,5 +1,6 @@
 ## Stack Sort Method
 
+
 ### Guide
 - An example stack is created, and if you run the file the sort method will run (node stack-sort.js)
 
@@ -9,3 +10,7 @@
 
 - a print method was added so before/after the sort method is run you can visualize the order of the node values in the stack
 
+### When Following along with the code, think of the Tower of Hanoi (but with 2 stacks)
+- The difference being that instead of having to place the removed node onto the other stack, before moving another, you can "hold it", and compare it's value to the "top" of the other stack and move the nodes in that stack accordingly before placing the "held" node onto the other stack.
+
+<div style="textAlign: center;">(https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Tower_of_Hanoi.jpeg/300px-Tower_of_Hanoi.jpeg)<div>
